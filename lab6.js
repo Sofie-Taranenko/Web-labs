@@ -63,3 +63,30 @@ function sleepFooter() {
     alert('Это конец! ');
     document.getElementById('footer').style.backgroundColor = 'red';
 }
+
+function showPoem() {
+    let poem = document.getElementById('poem').value;
+    let r = Math.round(Math.random()*255);
+    let g = Math.round(Math.random()*255);
+    let b = Math.round(Math.random()*255);
+    let color = 'rgb(' + r + ',' + g + ',' + b + ')';
+    document.getElementById('poem').style.backgroundColor = color;
+}
+
+function showPoem2() {
+    let poem = document.getElementById('poem2').value;
+    let r = Math.round(Math.random()*255);
+    let g = Math.round(Math.random()*255);
+    let b = Math.round(Math.random()*255);
+    let color = 'rgb(' + r + ',' + g + ',' + b + ')';
+    document.getElementById('poem2').style.backgroundColor = color;
+}
+
+function showPoem3() {
+    let poem = document.getElementById('poem3').value;
+    let r = Math.round(Math.random()*255);
+    let g = Math.round(Math.random()*255);
+    let b = Math.round(Math.random()*255);
+    let color = 'rgb(' + r + ',' + g + ',' + b + ')';
+    document.getElementById('poem3').style.backgroundColor = color; 
+}
