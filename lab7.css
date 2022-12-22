@@ -1,4 +1,4 @@
-body {
+.body {
     background-color:rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -26,8 +26,16 @@ body {
     left: 0;
     right: 0;
  }
- .header .language {
+
+ .step {
+    width: 200px;
+    height: 100px;
+    border: 1px solid;
     position: absolute;
-    right: 30px;
-    top:0px;
- }
+    top: 300px;
+    left: 30px;
+    text-align: center;
+    margin: auto;
+    color: rgb(148, 174, 197);
+    background-color:rgb(73, 40, 110);
+}
