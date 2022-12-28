@@ -34,3 +34,28 @@ body {
     color: rgb(153, 1, 133);
     padding-left: 30px;
 }
+
+.today {
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(228, 106, 208);
+    padding-left: 30px;
+}
+
+#result {
+    color: rgb(97, 193, 234);
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 30px;
+}
+
+.denrojdenia {
+    color: rgba(136, 134, 244, 0.87);
+    font-size: 20px;
+    font-style: oblique;
+    padding-left: 30px;
+}
+
+.raschet {
+    padding-left: 30px;
+}
